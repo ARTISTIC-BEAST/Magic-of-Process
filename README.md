@@ -42,7 +42,7 @@ To get started with the "Magic of Process" personal blog MVP, follow these steps
 
 1. Clone this repository to your local machine:
 
-   git clone https://github.com/yourusername/magic-of-process-blog-mvp.git
+   git clone https://github.com/ARTISTIC-BEAST/Magic-of-Process.git
 
 2. Navigate to the project directory:
    
