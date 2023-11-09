@@ -111,3 +111,23 @@ window.addEventListener("resize", function () {
 
   moveSliderItem();
 });
+
+
+/**
+ * CONTACT FORM
+ */
+
+<script>
+   document.addEventListener('DOMContentLoaded', function () {
+      const contactForm = document.getElementById('contact-form');
+
+      contactForm.addEventListener('submit', function (event) {
+         event.preventDefault();
+
+         // Add your form submission logic here
+         // For now, let's log a message to the console
+         console.log('Form submitted!');
+      });
+   });
+</script>
+

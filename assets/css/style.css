@@ -1370,3 +1370,34 @@ body.nav-active { overflow: hidden; }
 
 /* Add more media queries for larger screens if needed */
 
+/* Contact form */
+.contact-section {
+   text-align: center; /* Adjust as needed */
+   padding: 50px;
+}
+
+#contact-form {
+   max-width: 600px; /* Adjust as needed */
+   margin: 0 auto;
+}
+
+#contact-form label {
+   display: block;
+   margin-bottom: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 20px;
+}
+
+#contact-form button {
+   background-color: #3498db; /* Your button color */
+   color: #fff; /* Your text color */
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+}
+
