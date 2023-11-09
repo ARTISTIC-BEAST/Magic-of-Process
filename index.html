@@ -42,6 +42,8 @@
 
 <body id="top">
 
+
+
   <!-- 
     - #HEADER
   -->
@@ -66,27 +68,13 @@
         </div>
 
         <ul class="navbar-list">
-
-          <li>
-            <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
-          </li>
-
-          <li>
-            <a href="#topics" class="navbar-link hover-1" data-nav-toggler>Topics</a>
-          </li>
-
-          <li>
-            <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Featured Post</a>
-          </li>
-
-          <li>
-            <a href="#recent" class="navbar-link hover-1" data-nav-toggler>Recent Post</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link hover-1" data-nav-toggler>Contact</a>
-          </li>
-
+          <!-- Add other navigation items as needed -->
+          <li><a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a></li>
+          <li><a href="#topics" class="navbar-link hover-1" data-nav-toggler>Topics</a></li>
+          <li><a href="#featured" class="navbar-link hover-1" data-nav-toggler>Featured Post</a></li>
+          <li><a href="#recent" class="navbar-link hover-1" data-nav-toggler>Recent Post</a></li>
+          <li><a href="#contact" class="navbar-link hover-1" data-nav-toggler>Contact</a></li>
+          <li><a href="#about" class="navbar-link hover-1" data-nav-toggler>About</a></li>
         </ul>
 
         <div class="navbar-bottom">
@@ -134,7 +122,7 @@
         </div>
 
         <p class="copyright-text">
-          Copyright 2023 © Magic Of Process - Perosonal Blog Website
+          Copyright 2023 © Magic Of Process - Personal Blog Website
           Developed by ARTISTIC BEAST
         </p>
 
@@ -149,6 +137,26 @@
     </div>
   </header>
 
+<!-- Add the SmoothScroll script here if you want smooth scrolling -->
+
+<!-- 
+    - #CONTACT
+  -->
+
+  <section id="contact" class="contact-section">
+    <!-- Your contact form code here -->
+  </section>
+
+  <!-- 
+    - #ABOUT
+  -->
+
+  <section id="about" class="about-section">
+    <!-- Your about section content here -->
+  </section>
+
+</body>
+</html>
 
 
 
@@ -1318,6 +1326,24 @@
   </main>
 
 
+
+
+  <!-- Contact form  section -->
+<section id="contact" class="contact-section">
+   <h2>Contact Me</h2>
+   <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+      <button type="submit">Send Message</button>
+   </form>
+</section>
 
 
 
