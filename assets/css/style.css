@@ -1338,3 +1338,35 @@ body.nav-active { overflow: hidden; }
   }
 
 }
+
+/* Responsive Subscribe Button */
+.subscribe-btn {
+  padding: 15px 30px;
+}
+
+@media (max-width: 575px) {
+  .subscribe-btn {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .subscribe-btn {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .subscribe-btn {
+    padding: 12px 24px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .subscribe-btn {
+    font-size: 1.6rem;
+  }
+}
+
+/* Add more media queries for larger screens if needed */
+
