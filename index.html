@@ -1510,6 +1510,34 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+
+
+
+  <!--
+    - subscribe button js
+  -->
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const subscribeButton = document.querySelector('.btn-primary');
+
+    subscribeButton.addEventListener('click', function (event) {
+      // Prevent the default behavior of the button
+      event.preventDefault();
+
+      // Get the entered email address
+      const emailInput = document.querySelector('input[name="email_address"]');
+      const email = emailInput.value;
+
+      // Perform your subscription logic here
+      // For example, simulate a subscription by displaying an alert
+      alert('Subscribed with email: ' + email);
+    });
+  });
+</script>
+
+
+
+
 </body>
 
 </html>
